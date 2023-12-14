@@ -1,0 +1,159 @@
+#title {
+    background-image: linear-gradient(#ADD8E6, #FFFFFF); 
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Caveat';
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #000;
+}
+
+h2 {
+    font-family: 'Lora';
+    font-weight: bold;
+    font-size: 2rem;
+    color: #000;
+}
+
+h3 {
+    font-family: 'Lora';
+    font-weight: bold; 
+}
+
+p{
+    font-family: 'Lora';
+    color: #000; 
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand {
+    font-family: 'Whisper';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    text-align: right;
+}
+
+.nav-link{
+    font-family: 'Lora';
+    font-size: 1.2rem;
+}
+
+/* title image */
+
+.title-image {
+    width: 75%;
+}
+
+/* projects */
+
+#projects {
+    padding: 7% 15%;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(#FFFFFF, #ADD8E6);
+    z-index: 1;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #6082B6;
+    margin-bottom: 1rem;
+}
+
+/* projectstwo */
+
+#projectstwo {
+    padding: 1% 15%;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(#ADD8E6, #FFFFFF);
+    z-index: 1;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #6082B6;
+    margin-bottom: 1rem;
+}
+
+/* resume */
+
+#Resume {
+    padding: 50px;
+    text-align: center;
+    background-image: linear-gradient(#FFFFFF, #ADD8E6);
+} 
+
+.resume-header {
+    color: #000;
+}
+
+.resume-column {
+    padding: 3% 2%;
+}
+
+/* Quote */
+
+#quote {
+    background-color: #FFFFFF;
+    background-image: linear-gradient(#ADD8E6, #FFFFFF);
+    color: #000;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.quote-heading {
+    font-family: 'Whisper';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer */
+
+#footer {
+    background-color: #FFFFFF;
+    padding: 7% 15%;
+    text-align: center;
+    color:#6082B6
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+/* media query */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position:static;
+        transform: rotate(0);
+    }
+}
